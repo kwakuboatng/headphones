@@ -1,0 +1,400 @@
+/* meta/body section
+=======================================================> */
+body
+{
+    /* border: 1px solid black; */
+    width: 1400px;
+    margin: 0;
+}
+
+@media (max-width: 480vw)
+{
+
+    .header
+    {
+        flex-direction: column;
+    }
+
+
+}
+
+/* end of meta/body section ======================================== */
+
+
+/* Hero piece/header rules
+====================================================================> */
+logo
+{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+logo img
+{
+    width: 161px;
+    height: 32;
+}
+
+.main-part
+{
+    /* border: 1px solid black; */
+    width: 1400px;
+    height: 800px;
+    position: relative;
+}
+
+.main-part-text
+{
+    width: 637px;
+    height: 313px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 350px;
+    text-align: center;
+}
+
+#button:hover
+{
+    opacity: 0.9;
+}
+
+.main-part-text p, .main-part-text h1, .main-part-text button
+{
+    color: white;
+}
+
+.main-part-text button
+{
+    background-color: red;
+    border-radius: 50px;
+    width: 162px;
+    height: 44px;
+}
+
+
+
+.section-img
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.header
+{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    width: 1000.39px;
+    height: 32px;
+    margin-inline: 0;
+    margin-left: 200px;
+    /* align-items: flex-end; */
+    padding: 9px;
+    justify-content: space-between;
+}
+
+ul
+{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    justify-content: space-evenly;
+}
+
+a
+{
+    margin: 11px;
+    font-size: 12px;
+    color: white;
+}
+
+a:hover
+{
+    color: #FF6565;
+}
+
+/* End of hero piece/header rules */
+
+/* what we do section 
+=========================================================================> */
+
+.part-1
+{
+    /* border: 1px solid black; */
+    width: 637px;
+    height: 184px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.wrapper
+{
+    display: inline-block;
+}
+
+.what-we-do
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div
+{
+    /* border: 1px solid black; */
+}
+
+.part-2
+{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 1002px;
+    height: 193px;
+}
+
+p
+{
+    text-align: center;
+}
+
+/* icon rules 
+========================================================*/
+.icon-icon-ic_sound 
+{
+    display: inline-block;
+    width: 94.2px;
+    height: 65.36px;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: red;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+div
+{
+    text-align: center;
+}
+
+.icon-icon-ic_video 
+{
+    display: inline-block;
+    width: 94.2px;
+    height: 65.36px;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: red;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.icon-icon-ic_hearing 
+{
+    display: inline-block;
+    width: 94.2px;
+    height: 65.36px;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: red;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.icon-icon-ic_music
+{
+    display: inline-block;
+    width: 94.2px;
+    height: 65.36px;
+    fill: red;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+/* end of icon rules */
+
+/* End of what we do section ==============================================*/
+
+/* our results section rules 
+================================================*/
+.our-results
+{
+    height: 650px;
+    position: relative;
+    margin-top: 50px;
+    text-align: center;
+    padding: 50px;
+}
+
+.our-results-img
+{
+    
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -2;
+    
+}
+
+.our-results-text-color
+{
+    color: white;
+    flex-direction: column;
+    
+}
+
+.wrapper-our-results
+{
+    width: 637px;
+    height: 104px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+.pentagon
+{
+    display: inline-block;
+    margin: 10px;
+    width: 190px;
+    height: 190px;
+    position: relative;
+    
+}
+
+.pentagon img
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.pent-text
+{
+    color: white;
+}
+
+/* end of our results section rules 
+================================================*/
+
+
+/* contact us section 
+=================================*/
+.contact-us
+{
+    /* border: 1px solid black;  */
+    width: 335px;
+    height: 373px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+
+    
+}
+
+.contact-us- p
+{
+    text-align: left;
+    border-bottom: 1px solid black;
+}
+
+button
+{
+    border-radius: 50px;
+    width: 162px;
+    height: 44px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    background-color: red;
+}
+/* end of contact us section 
+=================================*/
+
+/* footer section 
+==================================*/
+footer
+{
+    /* border: 1px solid black; */
+    width: 1400px;
+    height: 249px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer div, .copy
+{
+    width: 98px;
+    height: 15px;
+
+}
+
+.copy 
+{
+    color: white;
+    white-space: nowrap;
+    flex-direction: column;
+    margin-top: 200px;
+}
+
+.socialm-logo div
+{
+    width: 30px;
+    height: 30px;
+}
+
+.facebook, .twitter, .instagram
+{
+
+    width: 30px;
+    height: 30px;
+    flex-direction: row;
+    margin-right: 0;
+}
+
+.socialm-logo
+{
+    
+    display: flex;
+    flex-direction: row;
+    width: 130px;
+    height: 30px;
+    justify-content: space-evenly;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+div svg
+{
+    width: 30px;
+    height: 30px;
+    fill: white;
+}
+
+/* end of footer section 
+==================================*/
